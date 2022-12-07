@@ -1,0 +1,27 @@
+{
+    "name": "AUTOMATC1111's Web UI image downloader",
+    "description": "Crawl thru box below image preview and download all of it except the first one.",
+    "version": "1.1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "js/background.js",
+        "type": "module"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "downloads",
+        "contextMenus"
+    ],
+    "action": {
+        "default_icon": {
+            "32": "assets/icon32.png",
+            "48": "assets/icon48.png",
+            "64": "assets/icon64.png"
+        },
+        "default_title": "Click to Download"
+    },
+    "host_permissions": [
+        "*://*/*"
+    ]
+}
