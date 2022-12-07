@@ -8,6 +8,8 @@ And a problem arose "**I CANT DOWNLOAD LARGE FILE**" so here it is.
 
 ## Currently Support Tabs
 
+> Test on [AUTOMATIC1111's Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) commit hash 47f6ebbad49556a75227f68841c916b98ed2daee
+
 - [x] txt2img
 - [x] img2img
 - [x] [images browser extension](https://github.com/yfszzx/stable-diffusion-webui-images-browser)
