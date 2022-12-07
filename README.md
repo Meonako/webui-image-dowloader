@@ -4,7 +4,7 @@ Alright, I recently enter the world of Image Generation AI and have been using [
 And a problem arose "**I CANT DOWNLOAD LARGE FILE**" so here it is.
 ![image](https://user-images.githubusercontent.com/76484203/201890439-85fdb262-7ae7-4457-80c3-a9cfe0bc4c9e.png)
 
-### NOTE : I wrote this on 15 November 2022 and I don't know if I'll update it or not. So, for the far future people, this might **NOT** work!
+### NOTE : I don't know if I'll update it or not. So, for the far future people, this might **NOT** work!
 
 # Install
 I have **NOT** package or deploy yet and I don't have plan to. So the only way is to clone this repo and load unpacked
