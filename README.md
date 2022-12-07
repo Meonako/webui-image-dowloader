@@ -10,7 +10,7 @@ And a problem arose "**I CANT DOWNLOAD LARGE FILE**" so here it is.
 
 - [x] txt2img
 - [x] img2img
-- [x] images browser (images history) extension
+- [x] [images browser extension](https://github.com/yfszzx/stable-diffusion-webui-images-browser)
 
 > ***I DON'T THINK OTHER THAN THESE 3 TABS NEED***
 
@@ -44,7 +44,7 @@ after generated image(s), choose the grid one (first one) then click on "Save" u
 
 # Changelog
 
-v1.1.0 : Add support for img2img and (image browser extension tab)[https://github.com/yfszzx/stable-diffusion-webui-images-browser]
+v1.1.0 : Add support for img2img and [image browser extension tab](https://github.com/yfszzx/stable-diffusion-webui-images-browser)
 
 # License
 
