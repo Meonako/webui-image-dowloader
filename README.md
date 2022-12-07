@@ -6,7 +6,7 @@ And a problem arose "**I CANT DOWNLOAD LARGE FILE**" so here it is.
 
 ![image](https://user-images.githubusercontent.com/76484203/201890439-85fdb262-7ae7-4457-80c3-a9cfe0bc4c9e.png)
 
-> Grid of 50 images that is too large for Google Colab + Gradio send to client
+> Grid of 50 images that is too large for Google Colab + Gradio to send to client
 
 ![image](https://user-images.githubusercontent.com/76484203/206149912-499d58e7-31c7-4e4d-88c6-de31ba1a147f.png)
 
