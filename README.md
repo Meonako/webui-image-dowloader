@@ -1,4 +1,5 @@
 # AUTOMATIC1111's Web UI Image Downloader
+
 Alright, I recently enter the world of Image Generation AI and have been using [AUTOMATIC1111's Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) BUT I can't run this locally all the time so I try out Google Colab. 
 
 And a problem arose "**I CANT DOWNLOAD LARGE FILE**" so here it is.
@@ -6,22 +7,23 @@ And a problem arose "**I CANT DOWNLOAD LARGE FILE**" so here it is.
 ![image](https://user-images.githubusercontent.com/76484203/201890439-85fdb262-7ae7-4457-80c3-a9cfe0bc4c9e.png)
 
 ## Currently Support Tabs
+
 - [x] txt2img
 - [x] img2img
-- [x] image browser extension
+- [x] images browser (images history) extension
 
-***I DON'T THINK OTHER THAN THESE 3 TABS NEED***
+> ***I DON'T THINK OTHER THAN THESE 3 TABS NEED***
 
----
-
-### NOTE : I don't know if I'll update it or not. So, for the far future people, this might **NOT** work!
+### ***NOTE*** : I don't know if I'll update it or not. So, for the far future people, this might **NOT** work!
 
 # Install
-I have **NOT** package or deploy yet and I don't have plan to. So the only way is to clone this repo and load unpacked
+
+I have ***NOT*** package or deploy yet and I don't have plan to. So the only way is to clone this repo and load unpacked
 
 ### If you're not sure how it's done. You should google it, because there are a lot of tutorial already.
 
 # Usage
+
 after loaded unpacked, pin the extension to the address bar
 > On Google Chrome
 
@@ -35,11 +37,15 @@ after generated image(s), choose the grid one (first one) then click on "Save" u
 ![image](https://user-images.githubusercontent.com/76484203/201866013-0b3ba860-e802-4aa4-a402-df701eafee32.png)
 
 # Demo
-(Click for high resolution)
+
+> (Click for high resolution)
+
 [![demo 720p](https://user-images.githubusercontent.com/76484203/201904586-7a0dd2f5-d2e4-44f6-b5b2-16964363db9d.gif)](https://www.youtube.com/watch?v=ObJ7ZFMgomM)
 
 # Changelog
+
 v1.1.0 : Add support for img2img and (image browser extension tab)[https://github.com/yfszzx/stable-diffusion-webui-images-browser]
 
 # License
+
 None, as always. Just a little code and you are done.
