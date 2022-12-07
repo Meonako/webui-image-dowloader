@@ -46,10 +46,9 @@ function getLink(List) {
     let fileInfo = []
     for (let i = 1; i < List.length; i++) {
         let [name, link] = getImageInformation(List[i])
-        console.log({ name, link })
         fileInfo.push({
             url: link,
-            fn: name,
+            fn: name.replaceAll(".", "_"),
         })
     }
     return fileInfo
@@ -59,10 +58,9 @@ function getLinkInImagesBrowser(List) {
     let fileInfo = []
     for (let i = 0; i < List.length; i++) {
         let [name, link] = getImageInformationInImagesBrowser(List[i])
-        console.log({ name, link })
         fileInfo.push({
             url: link,
-            fn: name,
+            fn: name.replaceAll(".", "_"),
         })
     }
     return fileInfo
@@ -73,6 +71,11 @@ function getImageInformation(html) {
     return [elements[0].innerText, elements[2].children[0].href]
 }
 
+/**
+ * 
+ * @param {HTMLButtonElement} Button 
+ * @returns {[String, String]}
+ */
 function getImageInformationInImagesBrowser(Button) {
     let img = Button.children[0]
     return [img.src.split("/").pop(), img.src]

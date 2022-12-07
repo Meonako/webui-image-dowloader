@@ -24,7 +24,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         let fileInfo = request.fileList[i]
         chrome.downloads.download({
             url: fileInfo.url,
-            filename: fileInfo.fn.replaceAll(".", "_") + ".png",
+            filename: fileInfo.fn + ".png",
             conflictAction: "uniquify",
         })
     }
