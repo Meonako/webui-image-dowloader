@@ -1,18 +1,5 @@
 import { Inject } from "./inject.js"
 
-chrome.runtime.onInstalled.addListener(() => {
-    chrome.contextMenus.create({
-        id: "download",
-        title: "Click to Download",
-        type: "normal",
-        contexts: ["selection"],
-    })
-})
-
-chrome.contextMenus.onClicked.addListener((_, tab) => {
-    Inject(tab)
-})
-
 chrome.action.onClicked.addListener((tab) => {
     Inject(tab)
 })

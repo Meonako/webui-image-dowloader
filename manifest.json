@@ -10,8 +10,7 @@
     "permissions": [
         "activeTab",
         "scripting",
-        "downloads",
-        "contextMenus"
+        "downloads"
     ],
     "action": {
         "default_icon": {
