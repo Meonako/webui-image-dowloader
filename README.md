@@ -51,7 +51,8 @@ after generated image(s), choose the grid one (first one) then click on "Save" u
 
 # Changelog
 
-v1.1.0 : Add support for img2img and [image browser extension tab](https://github.com/yfszzx/stable-diffusion-webui-images-browser)
+v1.1.0 : Add support for img2img and [image browser extension tab](https://github.com/yfszzx/stable-diffusion-webui-images-browser)\
+v1.1.1 : Fix: Replace "." with "_" in files name not working
 
 # License
 
